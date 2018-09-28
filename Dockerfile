@@ -1,6 +1,6 @@
 # Below are the dependencies required for installing the common combination of numpy, scipy, pandas and matplotlib 
 # in an Alpine based Docker image.
-FROM vxider/docker-flink-python:latest
+FROM vxider/flink-python:latest
 
 # xgboost
 RUN apk add --update --no-cache \
