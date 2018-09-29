@@ -32,3 +32,5 @@ RUN apk add --update --no-cache \
 
 RUN apk add --no-cache snappy g++ snappy-dev gfortran cmake make && \
     pip install --no-cache-dir --ignore-installed lightgbm==2.0.4 python-snappy oss2
+
+RUN apk add --update --no-cache vim
